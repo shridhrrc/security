@@ -8,7 +8,7 @@ let logger = require('morgan');
 // Database
 let mongo = require('mongodb');
 let monk = require('monk');
-let db = monk('20.232.8.119:27017/nodetest2');
+let db = monk('10.0.0.4:27017/nodetest2');
 
 
 let adminRouter = require('./routes/admin');
